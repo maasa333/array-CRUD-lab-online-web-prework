@@ -7,8 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
+  my_pets = ["Inky", "Rocky", "Looc", "Fluffy"]
   my_pets << "Chappy"
-  puts my_pets.inspect
 end
 
 def add_element_to_start_of_array(array, element)
